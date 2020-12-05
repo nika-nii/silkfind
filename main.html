@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/all.min.css">
+    <link rel="stylesheet" href="user/styles/main.css">
+    <script type="text/javascript" src="static/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="user/js/main.js"></script>
+    <title>silkfind.</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-left">
+            <li class="nav-item active">
+                <a class="nav-link" href="main.html">Главная <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="classification.html">Классификация</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="add.html">Добавить компонент</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ночной режим</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header class="header">
+    <div class="overlay text-center my-5">
+        <h1>silkfind.</h1>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-2">
+                <!--Карточка поиска-->
+                <div class="container-fluid border border-dark rounded">
+                    <div class="row justify-content-around p-3">
+                        <div class="col-2 align-self-center">
+                            <img src="user/images/icons/search.png" alt="Поиск" class="img-fluid rounded">
+                        </div>
+                        <div class="col-10 align-self-center">
+                            <form>
+                                <div class="form-group">
+                                    <label for="searchInput">Поиск электроники</label>
+                                    <div class="input-group mb-3">
+                                        <input type="search" class="form-control" id="searchInput"
+                                               aria-describedby="searchHelp" placeholder="Что вас интересует?">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button">
+                                                <span class="fa fa-search"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <small id="searchHelp" class="form-text text-muted">У нас в базе 15
+                                        компонентов</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-2">
+                <!--Карточка элемента 1-->
+                <div class="container-fluid border border-dark rounded align-items-center">
+                    <div class="row justify-content-around p-3">
+                        <div class="col-2 align-self-center">
+                            <img src="user/images/icons/003-transistor.png" alt="Иконка компонента"
+                                 class="img-fluid rounded">
+                        </div>
+                        <div class="col-10 align-self-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>IRL756SD</h2>
+                                    </div>
+                                    <div class="col-12">
+                                        N-channel
+                                    </div>
+                                    <div class="col-12">
+                                        50V, 80A
+                                    </div>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col-12">
+                                            <nav aria-label="breadcrumb">
+                                                <ol class="breadcrumb bg-transparent py-0">
+                                                    <li class="breadcrumb-item"><a class="text-dark"
+                                                                                   href="#">Silicon</a>
+                                                    </li>
+                                                    <li class="breadcrumb-item"><a class="text-dark"
+                                                                                   href="#">Transistors</a></li>
+                                                    <li class="breadcrumb-item"><a class="text-dark" href="#">MOSFET</a>
+                                                    </li>
+                                                    <li class="breadcrumb-item" aria-current="page">N-channel</li>
+                                                </ol>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row d-none d-lg-flex justify-content-start">
+                                    <div class="col-auto pr-1">
+                                        <a class="badge badge-pill border border-primary">N-channel</a>
+                                    </div>
+                                    <div class="col-auto px-1">
+                                        <a class="badge badge-pill border border-primary">Silicon</a>
+                                    </div>
+                                    <div class="col-auto px-1">
+                                        <a class="badge badge-pill border border-primary">TO-252</a>
+                                    </div>
+                                    <div class="col-auto px-1">
+                                        <a class="badge badge-pill border border-primary">DIP</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-2">
+                <!--Карточка элемента 2-->
+                <div class="container-fluid border border-dark rounded align-items-center">
+                    <div class="row justify-content-around p-3">
+                        <div class="col-2 align-self-center">
+                            <img src="user/images/icons/003-led.png" alt="Иконка компонента"
+                                 class="img-fluid rounded">
+                        </div>
+                        <div class="col-10 align-self-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2>LED3v</h2>
+                                    </div>
+                                    <div class="col-12">
+                                        Red
+                                    </div>
+                                    <div class="col-12">
+                                        3V, 15mA
+                                    </div>
+                                    <div class="row d-none d-lg-flex">
+                                        <div class="col-12">
+                                            <nav aria-label="breadcrumb">
+                                                <ol class="breadcrumb bg-transparent py-0">
+                                                    <li class="breadcrumb-item"><a class="text-dark"
+                                                                                   href="#">Silicon</a>
+                                                    </li>
+                                                    <li class="breadcrumb-item"><a class="text-dark"
+                                                                                   href="#">LED</a></li>
+                                                    <li class="breadcrumb-item"><a class="text-dark" href="#">Single</a>
+                                                    </li>
+                                                </ol>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row d-none d-lg-flex justify-content-start">
+                                    <div class="col-auto pr-1">
+                                        <a class="badge badge-pill border border-primary">LED</a>
+                                    </div>
+                                    <div class="col-auto px-1">
+                                        <a class="badge badge-pill border border-primary">Indicator</a>
+                                    </div>
+                                    <div class="col-auto px-1">
+                                        <a class="badge badge-pill border border-primary">Red</a>
+                                    </div>
+                                    <div class="col-auto px-1">
+                                        <a class="badge badge-pill border border-primary">DIP</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
